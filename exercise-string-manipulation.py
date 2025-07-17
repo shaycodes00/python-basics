@@ -50,5 +50,3 @@ left_padded = ' Operators are standing by'
 right_padded = 'Call now '
 full_message = right_padded.strip() + "! " + left_padded.strip()
 print(full_message)
-
-#going to finish the rest after class this evening to nail down a solid understanding. I will commit my updates once fully complete.
