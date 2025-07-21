@@ -31,9 +31,9 @@ traffic_light("blinking")
 # Pedestrian Countdown
 
 def countdown(start):
-    print(f"Countdown from [start]:")
-    for x in range(start, 10, -1):
+    print(f"Countdown from {start}:")
+    for x in range(start, 0, -1):
         print(x)
     print("You may walk")
 
-(countdown)10
+countdown(10)

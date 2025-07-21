@@ -37,7 +37,7 @@ with open("example-with.txt", "r") as file:
 # append to a file using 'with'
 
 with open("example-with.txt", "a") as file:
-    filw.write("This is an append line!\n")
+    file.write("This is an append line!\n")
 
 # delete a file
 
